@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Tipos de letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|Playfair+Display:400,700" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <!-- Clase general -->
+    <div class="general" id="general">
+        <!-- Menú -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="main-menu">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="nav nav-pills justify-content-center me-auto">
+                            <a class="navbar-brand" href="#"><img src="./assets/img/canvasone.png" class="mr-auto" alt="Logotipo de la empresa"></a>
+                        </ul>
+
+                        <ul class="navbar-nav mr-auto mb-lg-0 justify-content-end">
+                            <li class="nav-item px-lg-3">
+                                <a class="nav-link active" href="#home" aria-current="page">HOME</a>
+                            </li>
+                            <li class="nav-item px-lg-3">
+                                <a class="nav-link" href="#" aria-current="page">ABOUT</a>
+                            </li>
+                            <li class="nav-item px-lg-3">
+                                <a class="nav-link" href="#" aria-current="page">WORKS</a>
+                            </li>
+                            <li class="nav-item px-lg-3">
+                                <a class="nav-link" href="#" aria-current="page">SERVICES</a>
+                            </li>
+                            <li class="nav-item px-lg-3">
+                                <a class="nav-link" href="#" aria-current="page">BLOG</a>
+                            </li>
+                            <li class="nav-item px-lg-3">
+                                <a class="nav-link" href="#" aria-current="page">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Fin menú -->
+        <!-- Inicio Sección 1 -->
+        <div id="seccion1" class="containerRelative paddingBottom5">
+            <!-- Inicio del Slide -->
+            <div class="paddingTop5 ">
+                <div class="container">
+                    <div class="row slide1">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-6 col-md-6 col-lg-5 py-5">
+                                    <script src="./assets/js/titulo.js"></script>
+                                    <div class="title1">
+                                        <h2 class="color1">
+                                            <div class="separator2"></div>We're
+                                        </h2>
+                                    </div>
+                                    <h1 class="display-4" id="rotando">
+                                    </h1>
+                                    <!-- Script para cambiar el texto -->
+                                    <script>
+                                        //Establecemos las palabras el intervalo y el id.
+                                        let rotor = new Rotor({
+                                            id: 'rotando',
+                                            interval: 1000,
+                                            frases: [
+                                                "Creative.",
+                                                "Different.",
+                                                "Designer.",
+                                                "Digital.",
+                                                "Vision.",
+                                                "Developer."
+                                            ]
+                                        });
+                                        //Ejecutamos el script
+                                        rotor.play();
+                                    </script>
+                                    <!-- Fin Script texto -->
+
+                                    <p class="mb-5">Globally innovate principle-centered partnerships with progressive convergence. Interactively mesh best-of-breed functionalities without an expanded array of methodologies.</p>
+                                    <form action="#" method="post">
+                                        <div class="shadow-sm border rounded form-group">
+                                            <label class="color1 txt13">Enter your Email
+                                                        Adress:</label>
+                                            <input type="email" class="form-control required" placeholder="user@website.com">
+                                        </div>
+                                        <div class="pt-4">
+                                            <button href="#" class="btn btn-lg button-rounded bg-color1 color2 py-2" type="submit">Receive Quotes</button>
+                                            <a href="https://vimeo.com/87766904" class="text-uppercase fw-bold text-dark d-block d-lg-inline-block ms-0 ms-lg-4 mt-3 mt-lg-0">
+                                                <i class="fas fa-play"></i> Play Video</a>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <div class="col-6 col-md-5 col-lg-6 text-center d-flex flex-wrap align-items-center">
+                                    <img class="img-fluid" src="./assets/img/design.svg" alt="Image">
+                                </div>
+                            </div>
+                            <!-- Fin del slide -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Social botones -->
+            <div class="align-items-center justify-content-end menusocial menusocial-xl">
+                <div class="d-flex flex-lg-column align-items-center">
+                    <div class="separator"></div>
+                    <a href="#">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest fa-2x"></i>
+                    </a>
+                    <div class="separator"></div>
+                </div>
+            </div>
+            <!-- Fin social botones -->
+        </div>
+        <!-- Fin Sección 1 -->
+        <!-- Sección 2 -->
+        <div class="container text-center paddingBottom5" id="seccion2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mx-auto pt-5 txt40 t2 max-w700">A digital web studio creating stunning &amp; engaging online experiences</h2>
+                    <p class="lead mx-auto pt-5 max-w800 color3 txt20 t2">Ford Foundation reduce child mortality fight against oppression refugee disruption pursue these aspirations effect. Free-speech Nelson Mandela change liberal; challenges of our times sustainability institutions.
+                    </p>
+                    <p class="pt-5 txt16"><a href="#">Learn more
+                            <i class="fas fa-angle-right"></i></a></p>
+                </div>
+            </div>
+            <div class="row mx-auto max-w1000 paddingTop5" id="retratos">
+                <div class="col-md-4 mb-5">
+                    <div class="imagen mb-4">
+                        <img class="img-fluid" src="./assets/img/1.jpg" alt="John Doe">
+                        <div class="overlay overlay-position1 pb-3">
+                            <a href="#">
+                                <i class="fab fa-facebook-f px-2"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter px-2"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github px-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipo">
+                        <h4 class="text-uppercase">John Doe</h4>
+                        <p class="color1">CEO</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="imagen mb-4">
+                        <img class="img-fluid w-100" src="./assets/img/2.jpg" alt="Mary Jane">
+                        <div class="overlay overlay-position1 pb-3">
+                            <a href="#">
+                                <i class="fab fa-facebook-f px-2"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter px-2"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github px-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipo">
+                        <h4 class="text-uppercase">Mary Jane</h4>
+                        <p class="color1">Co-Founder</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="imagen mb-4">
+                        <img class="img-fluid" src="./assets/img/3.jpg" alt="Josh Clark">
+                        <div class="overlay overlay-position1 pb-3">
+                            <a href="#">
+                                <i class="fab fa-facebook-f px-2"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter px-2"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github px-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipo">
+                        <h4 class="text-uppercase">Josh Clark</h4>
+                        <p class="color1">Sales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 2 -->
+        <!-- Sección 3-->
+        <div class="bg-color3 py-5" id="seccion3">
+            <div class="container text-center justify-content-center max-w900">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- fw-light deveria quitar la negrita-->
+                        <!-- Preguntar-->
+                        <!-- Porque no me funciona.-->
+                        <h2 class="mb-0 txt30 fw-light ls1 poppins">We create &amp; craft projects that ooze creativity in every aspect. We try to create a benchmark in everything we do. Take a moment to browse through some of our recent completed work.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 3-->
+        <!-- Sección 4-->
+        <div class="container-fluid mb-5" id="seccion4">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6 m-0 p-0 order-0">
+                    <div class="imagen">
+                        <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/1.jpg" alt="Open Imagination"></a>
+                        <div class="text-uppercase overlay overlay-position2">
+                            <div class="text-center pt-5">
+                                <h3><a href="#">Open Imagination</a></h3>
+                                <a href="#">Media</a>, <a href="#">Icons</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-8 col-lg-6 order-1 m-0 p-0">
+                    <div class="row m-0 p-0">
+                        <div class="col-12 col-sm-6 col-xl-6 m-0 p-0">
+                            <div class="imagen">
+                                <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/2.jpg" alt="Locked Steel Gate"></a>
+                                <div class="overlay overlay-position2 text-uppercase">
+                                    <div class="text-center pt-5">
+                                        <h3><a href="#">Locked Steel Gate</a></h3>
+                                        <a href="#">Illustrations</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-6 m-0 p-0">
+                            <div class="imagen">
+                                <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/3.jpg" alt="Mac Sunglasses"></a>
+                                <div class="overlay overlay-position2 text-uppercase">
+                                    <div class="text-center pt-5">
+                                        <h3><a href="#">Mac Sunglasses</a></h3>
+                                        <a href="#">Graphics</a>, <a href="#">UI Elements</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-xl-12 d-none d-lg-block m-0 p-0">
+                            <div class="imagen">
+                                <a href="#"><img class="img-fluid w-100 " src="./assets/img/portafolio/4.jpg" alt="Open Imagination"></a>
+                                <div class="overlay overlay-position2 text-uppercase">
+                                    <div class="text-center pt-5">
+                                        <h3><a href="#">Open Imagination</a></h3>
+                                        <a href="#">Media</a>, <a href="#">Icons</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 m-0 p-0 d-block d-lg-none order-2">
+                    <div class="col-12">
+                        <div class="imagen">
+                            <a href="#"><img class="img-fluid w-100 " src="./assets/img/portafolio/4.jpg" alt="Open Imagination"></a>
+                            <div class="overlay overlay-position2 text-uppercase">
+                                <div class="text-center pt-5">
+                                    <h3><a href="#">Open Imagination</a></h3>
+                                    <a href="#">Media</a>, <a href="#">Icons</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 ">
+                        <div class="imagen">
+                            <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/7.jpg" alt="Backpack Contents"></a>
+                            <div class="overlay overlay-position2 text-uppercase">
+                                <div class="text-center pt-5">
+                                    <h3><a href="#">Backpack Contents</a></h3>
+                                    <a href="#">UI Elements</a>, <a href="#">Icons</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6 m-0 p-0 order-4 order-md-3">
+                    <div class="imagen">
+                        <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/5.jpg" alt="Console Activity"></a>
+                        <div class="overlay overlay-position2 text-uppercase">
+                            <div class="text-center pt-5">
+                                <h3><a href="#">Console Activity</a></h3>
+                                <a href="#">UI Elements</a>, <a href="#">Media</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 m-0 p-0 order-5 order-md-4">
+                    <div class="imagen">
+                        <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/6.jpg" alt="Open Imagination"></a>
+                        <div class="overlay overlay-position2 text-uppercase">
+                            <div class="text-center pt-5">
+                                <h3><a href="#">Open Imagination</a></h3>
+                                <a href="#">Media</a>, <a href="#">Icons</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 m-0 p-0 order-6 order-md-5 d-none d-lg-block">
+                    <div class="imagen">
+                        <a href="#"><img class="img-fluid w-100" src="./assets/img/portafolio/7.jpg" alt="Backpack Contents"></a>
+                        <div class="overlay overlay-position2 text-uppercase">
+                            <div class="text-center pt-5">
+                                <h3><a href="#">Backpack Contents</a></h3>
+                                <a href="#">UI Elements</a>, <a href="#">Icons</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row my-5">
+                <div class="col-12 text-center">
+                    <div class="topmargin center">
+                        <button type="submit" class="btn btn-outline-dark border-2 btn-circle fw-semibold txt13 px-4 py-2 text-uppercase">View More Projects</button></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 4-->
+        <!-- Sección 5-->
+        <div class="bg-color3 py-5" id="seccion5">
+            <div class="container text-center justify-content-center max-w900">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- fw-light deveria quitar la negrita-->
+                        <!-- Preguntar-->
+                        <!-- Porque no me funciona.-->
+                        <h2 class="mb-0 fw-light ls1 txt30 m-0 p-0">We enjoy working on the Services &amp; Products we provide as much as you need them. This help us in delivering your Goals easily. Browse through the wide range of services we provide.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 5-->
+        <!-- Sección 6-->
+        <div class="container-fluid m-0" id="seccion6">
+            <div class="row">
+                <div class="col-4 fondoPrincipal1 d-none d-lg-block">
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="row align-items-stretch text-center">
+                        <div class="col-12 col-md-6 col-lg-4 col-padding-4 border border-light">
+                            <a href="#"><i class="fas fa-mobile-alt fa-4x"></i></a>
+                            <h3 class="pt-4">Responsive Framework</h3>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-padding-4 border border-light">
+                            <a href="#"><i class="fab fa-slideshare fa-4x"></i></a>
+                            <h3 class="pt-4">Beautifully Presented</h3>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-padding-4 border border-light">
+                            <a href="#"><i class="fas fa-puzzle-piece fa-4x"></i></a>
+                            <h3 class="pt-4">Extensively Extendable</h3>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-padding-4 border border-light">
+                            <a href="#"><i class="fas fa-cogs fa-4x"></i></a>
+                            <h3 class="pt-4">Powerfully Customizable</h3>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-padding-4 border border-light">
+                            <a href="#"><i class="far fa-lightbulb fa-4x"></i></a>
+                            <h3 class="pt-4">Geniusly Transformable</h3>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-padding-4 border border-light">
+                            <a href="#"><i class="fas fa-industry fa-4x"></i></a>
+                            <h3 class="pt-4">Industrial Support</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 6-->
+        <!-- Sección 7-->
+        <div class="bg-color4 py-5" id="seccion7">
+            <div class="container text-center justify-content-center max-w900">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-0 color2 fw-light ls1">Like Our Services? Get an
+                            <a href="#" class="btn btn-outline-light color2 btn-circle fw-semibold txt16 py-2">Instant Quote</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 7-->
+        <!-- Sección 8-->
+        <div class="fondoImagen1 paddingTop5 paddingBottom5" id="seccion8">
+            <div class="container text-center justify-content-center">
+                <div class="row">
+                    <div class="col-12 col-md-7 offset-md-5 max-w900">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <h3 class="color2">"Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque vero numquam?"</h3>
+                                    <div class="testi-meta">
+                                        <h4 class="color2">Steve Jobs</h4>
+                                        <h5 class="color2">Apple Inc.</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <h3 class="color2">Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</h3>
+                                    <div class="testi-meta">
+                                        <h4 class="color2">Collis Ta'eed</h4>
+                                        <h5 class="color2">Envato Inc.</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <h3 class="color2">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</h3>
+                                    <div class="testi-meta">
+                                        <h4 class="color2">John Doe</h4>
+                                        <h5 class="color2">XYZ Inc.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 8-->
+        <!-- Sección 9-->
+        <div class="bg-color2 paddingTop10 pb-5" id="seccion9">
+            <div class="container text-center justify-content-center max-w900">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center text-uppercase fw-light">Recently From the Blog</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 9-->
+        <!-- Sección 10-->
+        <div class="bg-color3 py-5" id="seccion10">
+            <div class="container justify-content-center max-w900">
+                <div class="row my-3">
+                    <div class="col-12 col-md-6 mt-5">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <a href="#"><img class="img-fluid w-100" src="./assets/img/blog/1.jpg" alt="mesa con sillas"></a>
+                            </div>
+                            <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                                <p>Press &amp; Media</p>
+                                <h3 class="fw-normal"><a href="#">Global Meetup Program is Launching!</a></h3>
+                                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-5">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <a href="#"><img class="img-fluid w-100" src="./assets/img/blog/2.jpg" alt="moto"></a>
+                            </div>
+                            <div class=" col-12 col-lg-6 mt-3 mt-lg-0">
+                                <p>Inside Scoops</p>
+                                <h3 class="fw-normal"><a href="#">The New YouTube Economy unfolds itself</a></h3>
+                                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-5">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <a href="#"><img class="img-fluid w-100" src="./assets/img/blog/3.jpg" alt="playa"></a>
+                            </div>
+                            <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                                <p>Video Blog</p>
+                                <h3 class="fw-normal"><a href="#">Kicking Off Design Party in Style</a></h3>
+                                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-5">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <a href="#"><img class="img-fluid w-100" src="./assets/img/blog/4.jpg" alt="buzon"></a>
+                            </div>
+                            <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                                <p>Inspiration</p>
+                                <h3 class="fw-normal"><a href="#">Top Ten Signs You're a Designer</a></h3>
+                                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 10-->
+        <!-- sección 11-->
+        <div id="seccion11">
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <div class="col-12 d-block d-md-none">
+                        <div id="carouselClientes" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/1.png" alt="cliente 1" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/2.png" alt="cliente 2" class="img-fluid w-100">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/3.png" alt="cliente 3" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/4.png" alt="cliente 4" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/5.png" alt="cliente 5" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/6.png" alt="cliente 6" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/7.png" alt="cliente 7" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/8.png" alt="cliente 8" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/9.png" alt="cliente 9" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="./assets/img/clientes/10.png" alt="cliente 10" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-none d-md-block d-lg-none">
+                        <div id="carouselClientes" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/1.png" alt="cliente 1" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/2.png" alt="cliente 2" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/3.png" alt="cliente 3" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/4.png" alt="cliente 4" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/5.png" alt="cliente 5" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/6.png" alt="cliente 6" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/7.png" alt="cliente 7" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/8.png" alt="cliente 8" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/9.png" alt="cliente 9" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/10.png" alt="cliente 10" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/1.png" alt="cliente 1" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./assets/img/clientes/2.png" alt="cliente 2" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-none d-lg-block">
+                        <div id="carouselClientes" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/1.png" alt="cliente 1" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/2.png" alt="cliente 2" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/3.png" alt="cliente 3" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/4.png" alt="cliente 4" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/5.png" alt="cliente 5" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/6.png" alt="cliente 6" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/7.png" alt="cliente 7" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/8.png" alt="cliente 8" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/9.png" alt="cliente 9" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/10.png" alt="cliente 10" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/1.png" alt="cliente 1" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-2">
+                                            <img src="./assets/img/clientes/2.png" alt="cliente 2" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección 11-->
+        <!-- sección 12-->
+        <div class="container-fluid bg-color2" id="seccion12">
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-8 d-none d-md-block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3152.189858434469!2d144.9586625!3d-37.8090217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d34d2754a9f%3A0xad27583c2c9e2890!2sElizabeth%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1ses!2ses!4v1637796322518!5m2!1ses!2ses"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ms-5">
+                        <h3 class="fw-normal ls1">Our Headquarters</h3>
+
+                        <div style="font-size: 16px; line-height: 1.7;">
+                            <address style="line-height: 1.7;">
+										<strong>North America:</strong><br>
+										795 Folsom Ave, Suite 600<br>
+										San Francisco, CA 94107<br>
+									</address>
+
+                            <div class="clear topmargin-sm"></div>
+
+                            <address style="line-height: 1.7;">
+										<strong>Europe:</strong><br>
+										795 Folsom Ave, Suite 600<br>
+										San Francisco, CA 94107<br>
+									</address>
+
+                            <div class="clear topmargin"></div>
+
+                            <abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
+                            <abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
+                            <abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin sección 12-->
+            <!-- sección 13-->
+            <div id="seccion13" class="paddingTop5 paddingBottom5">
+                <div class="container max-w800">
+                    <form action="" method="post">
+                        <div class="row mx-auto">
+
+                            <div class="col-12 col-md-6 mb-4">
+                                <input type="text" class="form-control border-end-0 border-start-0 border-top-0" id="nombre" aria-describedby="nombre" placeholder="Name">
+                            </div>
+                            <div class="col-12 col-md-6 mb-4">
+                                <input type="email" class="form-control border-end-0 border-start-0 border-top-0" id="email" aria-describedby="email" placeholder="Email Address">
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <input type="tel" class="form-control border-end-0 border-start-0 border-top-0" id="phone" aria-describedby="phone" placeholder="Phone">
+                            </div>
+                            <div class="col-12 col-md-8 mb-4">
+                                <input type="text" class="form-control border-end-0 border-start-0 border-top-0" id="subject" aria-describedby="subject" placeholder="Subject">
+                            </div>
+                            <div class="col-12 col-md-12 mb-4">
+                                <input type="text" class="form-control border-end-0 border-start-0 border-top-0" id="msg" aria-describedby="msg" placeholder="Your Message">
+                            </div>
+                            <div class="col-12 text-center mb-4">
+                                <a href="#" class="btn btn-outline-dark btn-circle txt16 border-3 px-4 text-uppercase">Send Message</a>
+                                <br>
+                                <p class="txt13 mt-3">We'll do our best to get back to you within 6-8 working hours.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Fin sección 13-->
+            <!-- sección 14-->
+            <div id="seccion14" class="bg-color4">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 my-5">
+                            <div class="widget clearfix">
+                                <h4 class="color2 text-uppercase">Site Links</h4>
+                                <ul class="list-unstyled mt-5">
+                                    <li><a href="#">Top</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Works</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 my-5">
+                            <h4 class="color2 text-uppercase">Subscribe</h4>
+                            <form class="mt-5">
+                                <input type="email" name="email" class="form-control form-control-lg required mb-4" placeholder="Your Email Address">
+                                <button type="submit" class="btn btn-outline-light border-2 color2 btn-circle fw-semibold txt16 px-4 text-uppercase">Subscribe Now</button></h2>
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-4 my-5">
+                            <h4 class="color2 text-uppercase">Contact</h4>
+                            <div class="mt-5">
+                                <p>795 Folsom Ave, Suite 600
+                                    <br> San Francisco, CA 94107</p>
+                                <div class="mt-4">
+                                    <a class="px-2" href="#">
+                                        <i class="color4 fab fa-facebook"></i>
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <i class="color4 fab fa-twitter"></i>
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <i class="color4 fab fa-github"></i>
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <i class="color4 fab fa-pinterest"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin sección 14-->
+            <!-- footer -->
+            <footer id="footer" class="bg-color5 py-5">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="color4">Copyrights Canvas 2020 | All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Fin footer -->
+
+
+            <!-- Bootstrap JavaScript Libraries -->
+            <script src="./assets/js/popper.min.js"></script>
+            <script src="./assets/js/bootstrap.min.js"></script>
+            <script defer src="./assets/js/all.js"></script>
+</body>
+
+</html>
