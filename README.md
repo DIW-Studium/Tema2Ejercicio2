@@ -10,3 +10,4 @@
 <li>Deberá comprobar que la maquetación es correcta para los tamaños XS, SM, MD y LG.
 Maquetación 2 </li>
 </ul>
+<img src="./DIW_T2_Maquetacion2.jpg"/>
