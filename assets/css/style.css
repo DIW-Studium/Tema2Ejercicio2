@@ -21,7 +21,7 @@ h6 {
 h1 {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 700 !important;
-    font-size: 4rem !important;
+    font-size: 96px !important;
 }
 
 @media (min-width: 760px) {
